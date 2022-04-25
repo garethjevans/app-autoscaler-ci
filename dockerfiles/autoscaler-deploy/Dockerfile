@@ -1,6 +1,6 @@
 FROM mikefarah/yq:4.16.1 AS yq
 
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 MAINTAINER autoscaler-team
 
 RUN apt-get update && \
